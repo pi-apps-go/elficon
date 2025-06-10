@@ -1,0 +1,4 @@
+elfres-dbgsym_0.6.0-1_amd64.ddeb debug optional automatic=yes
+elfres-doc_0.6.0-1_all.deb utils optional
+elfres_0.6.0-1_amd64.buildinfo utils optional
+elfres_0.6.0-1_amd64.deb utils optional

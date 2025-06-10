@@ -1,0 +1,51 @@
+0.6.0-1:
+	* Migrated from GTK 2/libglade to GTK 3/GtkBuilder
+	* Added desktop integration with proper .desktop file
+	* Added application icon following freedesktop.org standards
+	* Fixed dialog handling for modern GTK 3 compatibility
+	* Added proper icon installation to hicolor theme
+	* Enhanced application launcher with MIME type associations
+	* Improved build system for current autotools
+	* (For elfres with GUI) Added support for opening files from the command line or via the file chooser dialog
+	* Added .desktop entry for elfres to allow it to be launched from the desktop
+0.6.0:
+	* Updated "GUID naming" to "UUID naming" of functions.
+	* Switched to use one-canvas icons for elfres example.
+	* Removed non-source build files from revision control.
+	* Moved the thumbnailer code to a separate "gnome-elf-thumbnailer" project.
+	* Now using the "MIT/X/Expat" License, considering the example nature of this portion of the project.
+0.5.0:
+	* Updated configure script to use pkg-config for libr.
+	* Add support for GUI applications to call elfres/elficon with 'console parameters'.
+0.4.2:
+	* Added GUI strings to i18n.
+	* Fixed i18n being accidently disabled.
+	* Fixed a minor bug caused by the name change.
+	* Added ability to extract resources from the GUI.
+	* Fixed a minor bug where temporary files were not always removed.
+	* "Failed" images grab a file-system icon rather than permanently failing.
+0.4.1:
+	* Renamed project to "elfres".
+	* New procedure for producing packages.
+0.4.0:
+	* Updated GTK+ and dynamic library support in libr.
+	* Added support for gettext in libr (example in elfres).
+	* Now includes both libglade and GtkBuilder resource examples.
+	* Can now be easily compiled without the GUI (./configure --disable-gui).
+	* Now installs the gnome thumbnailer as a schema (you may need to log out and log back in).
+	* The GTK+ GUI now has an example of loading additional resources (such as bitmaps) from the ELF binary.
+0.3.1:
+	* Report descriptive errors for problems.
+	* Made icon routines thread safe.
+	
+	Major bug fixes:
+	 1) Replacing an icon added duplicate entries to the icon table
+	 2) File uid and gid were not preserved
+0.3.0:
+	* Using new simplified GTK convenience API.
+0.2.1:
+	* Minor bug fixes.
+0.2.0:
+	* Moved resource handling to "libr" and converted to using libbfd.
+0.1.0:
+	* Initial demonstration

@@ -1,0 +1,226 @@
+# German translation for elfres messages
+# NOTE: This file is primarily translated by an automated tool.
+#
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the elfres package.
+# Erich Hoover <ehoover at mines dot edu>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: elfres 0.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-20 16:09-0700\n"
+"PO-Revision-Date: 2009-09-08 19:40-0600\n"
+"Last-Translator: Erich Hoover <ehoover at mines dot edu>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/elfres.c:78
+msgid "add an icon to the ELF file"
+msgstr "fügen sie eine ikone der ELF-akte hinzu"
+
+#: src/elfres.c:79
+msgid "clear the file's ELF icon"
+msgstr "löschen sie das gibt datei ELF-ikone"
+
+#: src/elfres.c:80
+msgid "find an ELF icon in the file by closest size"
+msgstr "finden sie eine ELF-ikone in der akte durch nähste größe"
+
+#: src/elfres.c:81
+msgid "get the icon GUID for the file"
+msgstr "erhalten sie die ikone GUID für die akte"
+
+#: src/elfres.c:82
+msgid "retrieve an icon from the ELF file"
+msgstr "holen sie eine ikone von der ELF-akte zurück"
+
+#: src/elfres.c:83
+msgid "set the icon GUID for the ELF file"
+msgstr "stellen sie die ikone GUID für die ELF-akte ein"
+
+#: src/elfres.c:84 src/elfres.c:119
+msgid "display the current application revision"
+msgstr "zeigen sie die gegenwärtige anwendungsneuausgabe an"
+
+#: src/elfres.c:112
+msgid "add a resource to the ELF file"
+msgstr "fügen sie ein hilfsmittel der ELF-akte hinzu"
+
+#: src/elfres.c:113
+msgid "clear an ELF file resource"
+msgstr "löschen sie ein ELF-aktenhilfsmittel"
+
+#: src/elfres.c:115
+msgid "open the elfres graphic interface"
+msgstr "öffnen sie die elfres grafische schnittstelle"
+
+#: src/elfres.c:117
+msgid "list libr-compatible resources"
+msgstr "libr-kompatible betriebsmittel der liste"
+
+#: src/elfres.c:118
+msgid "retrieve a resource from the ELF file"
+msgstr "holen sie ein hilfsmittel von der ELF-akte zurück"
+
+#: src/elfres.c:154
+#, c-format
+msgid "%s: Version %s\n"
+msgstr "%s: Version %s\n"
+
+#: src/elfres.c:250
+#, c-format
+msgid "usage: %s [options] elf-file-name section-name resource-file-name\n"
+msgstr ""
+"aufruf: %s [optionen] elf-datendateiname kapitelname hilfsmitteldateiname\n"
+
+#: src/elfres.c:258
+#, c-format
+msgid "usage: %s [-a|-r] elf-file-name icon-name svg-file-name\n"
+msgstr "aufruf: %s [-a|-r] elf-datendateiname ikonenname svg-datendateiname\n"
+
+#: src/elfres.c:259
+#, c-format
+msgid "usage: %s [-c|-g] elf-file-name\n"
+msgstr "aufruf: %s [-c|-g] elf-datendateiname\n"
+
+#: src/elfres.c:260
+#, c-format
+msgid "usage: %s [-s] elf-file-name guid\n"
+msgstr "aufruf: %s [-s] elf-datendateiname guid\n"
+
+#: src/elfres.c:281
+#, c-format
+msgid "open \"%s\" failed: %m"
+msgstr "öffnung \"%s\" failed: %m"
+
+#: src/elfres.c:287
+#, c-format
+msgid "failed to obtain file size: %m"
+msgstr "dateigröße erhalten nicht gekonnt: %m"
+
+#: src/elfres.c:294
+#, c-format
+msgid "failed to create buffer: %m"
+msgstr "puffer verursachen nicht gekonnt: %m"
+
+#: src/elfres.c:300
+#, c-format
+msgid "failed to read input file: %m"
+msgstr "eingangsakte lesen nicht gekonnt"
+
+#: src/elfres.c:305
+msgid "failed to read entire file."
+msgstr "gesamte akte lesen nicht gekonnt."
+
+#: src/elfres.c:311
+#, c-format
+msgid "failed to write ELF resource: %s"
+msgstr "geschmerzt, um ELF-hilfsmittel zu schreiben: %s"
+
+#: src/elfres.c:337
+#, c-format
+msgid "failed to obtain ELF resource size: %s"
+msgstr "ELF-hilfsmittelgröße erhalten nicht gekonnt: %s"
+
+#: src/elfres.c:344
+#, c-format
+msgid "failed to obtain ELF resource: %s"
+msgstr "ELF-hilfsmittel erreichen nicht gekonnt: %s"
+
+#: src/elfres.c:350
+#, c-format
+msgid "open \"%s\" failed"
+msgstr "öffnung \"%s\" failed"
+
+#: src/elfres.c:355
+#, c-format
+msgid "failed to write output file: %m"
+msgstr "ausgabedatei schreiben nicht gekonnt: %m"
+
+#: src/elfres.c:372 src/elfres-gui.c:140
+#, c-format
+msgid "failed to remove resource: %s"
+msgstr "hilfsmittel entfernen nicht gekonnt: %s"
+
+#: src/elfres.c:384
+#, c-format
+msgid "The file contains no libr-compatible resources.\n"
+msgstr "Die akte enthält keine libr-kompatiblen Betriebsmittel.\n"
+
+#: src/elfres.c:387
+#, c-format
+msgid "%d resource(s):\n"
+msgstr "%d betriebsmittel:\n"
+
+#: src/elfres.c:394
+#, c-format
+msgid "error!\n"
+msgstr "störung!\n"
+
+#: src/elfres.c:397
+#, c-format
+msgid "resource %d: %s\n"
+msgstr "hilfsmittel %d: %s\n"
+
+#: src/elfres.c:429
+#, c-format
+msgid "failed to open file \"%s\": %s"
+msgstr "ausgefallen zur geöffneten akte: \"%s\": %s"
+
+#: src/elfres.c:445
+#, c-format
+msgid "failed to obtain ELF icon: %s"
+msgstr "ELF-ikone erhalten nicht gekonnt: %s"
+
+#: src/elfres.c:451 src/elfres.c:524
+#, c-format
+msgid "failed to save the icon to a file: %s"
+msgstr "die ikone zu einer akte speichern nicht gekonnt: %s"
+
+#: src/elfres.c:462
+#, c-format
+msgid "Failed to get GUID: %s\n"
+msgstr "GUID erhalten nicht gekonnt: %s\n"
+
+#: src/elfres.c:470
+#, c-format
+msgid "Failed to set GUID: %s\n"
+msgstr "GUID einstellen nicht gekonnt: %s\n"
+
+#: src/elfres.c:492
+#, c-format
+msgid "failed to open icon file \"%s\": %s"
+msgstr "ikonenakte öffnen nicht gekonnt \"%s\": %s"
+
+#: src/elfres.c:498
+#, c-format
+msgid "failed to add icon to ELF file: %s"
+msgstr "ikone ELF-akte hinzufügen nicht gekonnt: %s"
+
+#: src/elfres.c:518
+#, c-format
+msgid "failed to get icon named \"%s\": %s"
+msgstr "nicht gekonnt ikone nannte erhalten \"%s\": %s"
+
+#: src/elfres.c:538
+msgid "Unhandled operation code."
+msgstr "Unhandled Operationscode."
+
+#: src/elfres-gui.c:110 src/elfres-gui.c:133 src/elfres-gui.c:189
+msgid "No resource selected."
+msgstr "Kein hilfsmittel vorgewählt."
+
+#: src/elfres-gui.c:159
+#, c-format
+msgid "failed to re-open the executable (%s) for resources: %s"
+msgstr ""
+"das vollziehbare (%s) für betriebsmittel wieder öffnen nicht gekonnt: %s"
+
+#: src/elfres-gui.c:216
+#, c-format
+msgid "failed to open the executable (%s) for resources: %s"
+msgstr "das vollziehbare (%s) für betriebsmittel öffnen nicht gekonnt: %s"

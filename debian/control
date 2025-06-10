@@ -1,0 +1,29 @@
+Source: elfres
+Section: utils
+Priority: optional
+Maintainer: Erich E. Hoover <ehoover@mines.edu>
+Build-Depends: debhelper (>= 9), libtool, autotools-dev, pkg-config,
+ libgtk-3-dev, libr-dev, gettext
+Standards-Version: 3.9.8
+Homepage: http://www.compholio.com/elficon/
+
+Package: elfres
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ELF binary resource editor
+ Utility for storing and retrieving resources and icons from ELF binaries.
+ This GTK 3 application provides a graphical interface for adding, removing,
+ and extracting embedded resources from ELF executable and library files.
+ .
+ Features include:
+  - Add icons and other resources to ELF binaries
+  - Extract embedded resources from executables
+  - Desktop integration with proper application launcher
+  - Support for various resource formats (PNG, SVG, etc.)
+
+Package: elfres-doc
+Architecture: all
+Depends: ${misc:Depends}
+Description: documentation for elfres
+ Documentation for the ELF binary resource editor utility.
+ Contains manual pages and additional documentation for elfres. 

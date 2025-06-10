@@ -1,0 +1,3 @@
+# List of source files which contain translatable strings.
+src/elfres.c
+src/elfres-gui.c

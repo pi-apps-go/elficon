@@ -1,0 +1,5 @@
+usr/bin/elfres
+usr/bin/elficon
+usr/share/applications/elfres.desktop
+usr/share/icons/hicolor/scalable/apps/elfres.svg
+usr/share/locale/*/LC_MESSAGES/elfres.mo

@@ -1,0 +1,19 @@
+elfres (0.6.0-1) stable; urgency=medium
+
+  * Updated to version 0.6.0
+  * Migrated from GTK 2/libglade to GTK 3/GtkBuilder
+  * Added desktop integration with proper .desktop file
+  * Added application icon following freedesktop.org standards
+  * Fixed dialog handling for modern GTK 3 compatibility
+  * Added proper icon installation to hicolor theme
+  * Enhanced application launcher with MIME type associations
+  * Improved build system for current autotools
+
+ -- matu6968 <wierzejskimateusz8@gmail.com> Mon, 10 Jun 2025 20:00:00 +0000
+
+elfres (0.4.2) karmic; urgency=low
+
+  * elfres Debian maintainer and upstream author are identical.
+    Therefore see also normal changelog file for Debian changes.
+
+ -- Erich E. Hoover <ehoover@mines.edu>  Thu, 10 Sep 2009 13:47:00 -0600 

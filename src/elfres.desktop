@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ELF Resource Editor
+GenericName=ELF Icon Editor
+Comment=Add and manage icons and resources in ELF executable files
+Keywords=ELF;executable;icon;resource;binary;embed;
+Icon=elfres
+Exec=elfres -i
+Terminal=false
+StartupNotify=true
+Categories=Development;GTK;Graphics;RasterGraphics;Photography;
+MimeType=application/x-executable;application/x-sharedlib;application/x-pie-executable;
+StartupWMClass=elfres 
