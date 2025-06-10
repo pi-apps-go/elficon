@@ -96,10 +96,9 @@ am__aclocal_m4_deps = $(top_srcdir)/m4/gettext.m4 \
 	$(top_srcdir)/m4/iconv.m4 $(top_srcdir)/m4/lib-ld.m4 \
 	$(top_srcdir)/m4/lib-link.m4 $(top_srcdir)/m4/lib-prefix.m4 \
 	$(top_srcdir)/m4/libtool.m4 $(top_srcdir)/m4/ltoptions.m4 \
-	$(top_srcdir)/m4/ltsugar.m4 $(top_srcdir)/m4/ltversion.m4 \
-	$(top_srcdir)/m4/lt~obsolete.m4 $(top_srcdir)/m4/nls.m4 \
-	$(top_srcdir)/m4/po.m4 $(top_srcdir)/m4/progtest.m4 \
-	$(top_srcdir)/configure.ac
+	$(top_srcdir)/m4/ltsugar.m4 $(top_srcdir)/m4/lt~obsolete.m4 \
+	$(top_srcdir)/m4/nls.m4 $(top_srcdir)/m4/po.m4 \
+	$(top_srcdir)/m4/progtest.m4 $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
@@ -212,14 +211,14 @@ am__define_uniq_tagged_files = \
   done | $(am__uniquify_input)`
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' aclocal-1.16
+ACLOCAL = ${SHELL} '/zram/new-lib/elficon/missing' aclocal-1.16
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
 ARCH = amd64
-AUTOCONF = ${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' autoconf
-AUTOHEADER = ${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' autoheader
-AUTOMAKE = ${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' automake-1.16
+AUTOCONF = ${SHELL} '/zram/new-lib/elficon/missing' autoconf
+AUTOHEADER = ${SHELL} '/zram/new-lib/elficon/missing' autoheader
+AUTOMAKE = ${SHELL} '/zram/new-lib/elficon/missing' automake-1.16
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -272,7 +271,7 @@ LTLIBICONV = -liconv
 LTLIBINTL = 
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
-MAKEINFO = ${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' makeinfo
+MAKEINFO = ${SHELL} '/zram/new-lib/elficon/missing' makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 MSGFMT = /usr/bin/msgfmt
@@ -306,10 +305,10 @@ VERSION = 0.6.0
 XGETTEXT = /usr/bin/xgettext
 XGETTEXT_015 = /usr/bin/xgettext
 XGETTEXT_EXTRA_OPTIONS = 
-abs_builddir = /home/ximitekfun/Downloads/elficon_0.6.0/elfres/src
-abs_srcdir = /home/ximitekfun/Downloads/elficon_0.6.0/elfres/src
-abs_top_builddir = /home/ximitekfun/Downloads/elficon_0.6.0/elfres
-abs_top_srcdir = /home/ximitekfun/Downloads/elficon_0.6.0/elfres
+abs_builddir = /zram/new-lib/elficon/src
+abs_srcdir = /zram/new-lib/elficon/src
+abs_top_builddir = /zram/new-lib/elficon
+abs_top_srcdir = /zram/new-lib/elficon
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -338,7 +337,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/ximitekfun/Downloads/elficon_0.6.0/elfres/install-sh
+install_sh = ${SHELL} /zram/new-lib/elficon/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale

@@ -45,7 +45,7 @@ elficon: elfres
 	@ln -s ./elfres ./elficon 2> /dev/null || true
 
 # Add the icon, UI file, and "gears image" for our binary
-all-local: $(bin_PROGRAMS) $(top_srcdir)/po/de.gmo
+all-local: $(bin_PROGRAMS)
 	@echo Setting icon for 'elfres'...
 	@cp ./elficon ./elficon-tmp
 	@cp ./elfres ./elfres-tmp
@@ -55,6 +55,10 @@ all-local: $(bin_PROGRAMS) $(top_srcdir)/po/de.gmo
 	@./elfres-tmp -a ./elfres "gears.svg" gears.svg
 	@./elfres-tmp -a ./elfres "gears.png" gears.png
 	@echo Adding translations for 'elfres'...
+	@if [ ! -f ${top_srcdir}/po/de.gmo ]; then \
+		echo "Building translation file..."; \
+		cd ${top_srcdir}/po && rm -f stamp-po && $(MAKE) stamp-po; \
+	fi
 	@./elfres-tmp -a ./elfres "de/LC_MESSAGES/elfres.mo" ${top_srcdir}/po/de.gmo
 	@rm ./elficon-tmp ./elfres-tmp
 	@echo Post-compile complete.

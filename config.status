@@ -424,7 +424,7 @@ Copyright (C) 2021 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/ximitekfun/Downloads/elficon_0.6.0/elfres'
+ac_pwd='/zram/new-lib/elficon'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -900,12 +900,12 @@ S["mkdir_p"]="/usr/bin/mkdir -p"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/ximitekfun/Downloads/elficon_0.6.0/elfres/install-sh"
-S["MAKEINFO"]="${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' makeinfo"
-S["AUTOHEADER"]="${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' autoheader"
-S["AUTOMAKE"]="${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' automake-1.16"
-S["AUTOCONF"]="${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' autoconf"
-S["ACLOCAL"]="${SHELL} '/home/ximitekfun/Downloads/elficon_0.6.0/elfres/missing' aclocal-1.16"
+S["install_sh"]="${SHELL} /zram/new-lib/elficon/install-sh"
+S["MAKEINFO"]="${SHELL} '/zram/new-lib/elficon/missing' makeinfo"
+S["AUTOHEADER"]="${SHELL} '/zram/new-lib/elficon/missing' autoheader"
+S["AUTOMAKE"]="${SHELL} '/zram/new-lib/elficon/missing' automake-1.16"
+S["AUTOCONF"]="${SHELL} '/zram/new-lib/elficon/missing' autoconf"
+S["ACLOCAL"]="${SHELL} '/zram/new-lib/elficon/missing' aclocal-1.16"
 S["VERSION"]="0.6.0"
 S["PACKAGE"]="elfres"
 S["CYGPATH_W"]="echo"
