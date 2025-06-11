@@ -1,0 +1,12 @@
+elfres/elficon - Manage application resources in ELF binaries
+
+This is a modern version of elfres which uses GTK 3 and improves on features compared to original elfres/elficon which hasn't been maintained since 2011.
+See the INSTALL file for general installation instructions.
+
+* This application is a technology demonstration, at this point please DO NOT
+consider this implementation to be a specification for how ELF icons will be
+supported by desktop environments.  With that said, this application and the
+associated "libr" resource library provide a solid mechanism for managing
+application resources that you are free to use in your own applications.
+
+See https://wiki.ubuntu.com/ELFIconSpec for a detailed proposal.

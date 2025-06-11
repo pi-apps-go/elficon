@@ -18,7 +18,7 @@ See https://wiki.ubuntu.com/ELFIconSpec for a detailed proposal.
 sudo apt-get install build-essential autotools-dev libtool pkg-config doxygen
 sudo apt-get install libgtk-3-dev libglib2.0-dev libgdk-pixbuf2.0-dev librsvg2-dev gettext
 ```
-2. Clone lelficon:
+2. Clone elficon:
 ```bash
 git clone https://github.com/pi-apps-go/elficon
 ```
