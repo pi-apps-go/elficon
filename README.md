@@ -15,7 +15,7 @@ See https://wiki.ubuntu.com/ELFIconSpec for a detailed proposal.
 ## How to compile and package the .deb?
 1. Install dependencies:
 ```bash
-sudo apt-get install build-essential autotools-dev libtool pkg-config
+sudo apt-get install build-essential autotools-dev libtool pkg-config doxygen
 sudo apt-get install libgtk-3-dev libglib2.0-dev libgdk-pixbuf2.0-dev librsvg2-dev gettext
 ```
 2. Clone lelficon:
@@ -26,3 +26,4 @@ git clone https://github.com/pi-apps-go/elficon
 ```bash
 cd elficon
 dpkg-buildpackage -us -uc
+```
